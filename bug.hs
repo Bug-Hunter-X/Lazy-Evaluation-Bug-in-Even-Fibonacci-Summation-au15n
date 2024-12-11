@@ -1,0 +1,1 @@
+This Haskell code suffers from a subtle bug related to lazy evaluation and infinite lists.  The function `sumEvenFibs` aims to calculate the sum of even-valued Fibonacci numbers up to a given limit. However, it generates the entire infinite Fibonacci sequence before filtering and summing, leading to non-termination if the limit is not reached quickly enough.
